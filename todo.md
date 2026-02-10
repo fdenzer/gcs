@@ -37,4 +37,8 @@
 
 - [ ] 8. Automate as CI gate
   - [ ] Add `scripts/android-preflight.sh` for Steps 3-4
-  - [ ] Add CI job to run preflight on each PR
+  - [x] Add CI job to run preflight on each PR (`.github/workflows/android-deps-preflight.yml`)
+
+## Notes
+
+- Local `act` execution is currently blocked by Podman machine startup instability on this host (connection resets / stuck start).
