@@ -41,4 +41,5 @@
 
 ## Notes
 
-- Local `act` execution is currently blocked by Podman machine startup instability on this host (connection resets / stuck start).
+- Local automation now uses `colima + docker + act` (Podman removed).
+- `act` runs the workflow locally, but `linux/amd64` emulation on Apple Silicon remains unstable for full end-to-end completion.
